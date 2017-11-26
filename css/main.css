@@ -1,0 +1,55 @@
+h2{
+    font-size: 24px;
+}
+
+p{
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+.gray-section .img-section{
+	width: 35%;
+}
+
+.img-section img{
+	width: 100%;
+}
+
+.gray-section{
+	background: #252F34;
+	color: #fff;
+}
+.gray-section .text-section{
+	width: 65%;
+}
+
+.article-preview > div{
+	float: left;
+	font-size: 0;
+}
+
+.article-preview:nth-child(odd){
+	background-color: rgba(255,255,255,0.05);
+}
+
+.article-preview:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.text-section{
+	position: relative;
+	top: 68px;
+
+}
+
+.text-section h2{
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+.text-section p{
+	margin-left: 50px;
+	width: 90%;
+}
+
